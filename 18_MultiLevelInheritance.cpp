@@ -26,7 +26,7 @@ class Cylinder: public Circle
         }
         void show()
         {
-            cout<<"Volume of cylinder: "<<volume<<endl;
+            cout<<"Volume of cylinder : "<<volume<<endl;
         }
 };
 
