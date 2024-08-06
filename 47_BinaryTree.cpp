@@ -50,18 +50,6 @@ public:
             cout<<temp->data<<" ";
         }
     }
-
-    // void add(int n){
-    //     Node * newNode = new Node(n);
-    //     if(root == nullptr)
-    //         root newNode;
-    //     else{
-    //         while(root->left!=nullptr and root->right!=nullptr){
-
-    //         }
-
-    //     }
-    // }
 };
 
 int main(){
