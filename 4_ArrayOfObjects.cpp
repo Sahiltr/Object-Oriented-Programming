@@ -42,8 +42,10 @@ int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     
-    Student std[3];
+    Student std[3];               //Here we are creating array of objects
+    
     cout<<"size of std: "<<sizeof(std)<<endl ;
+
     for(int i = 0; i < 3; i++){
         int rollno,a1,a2,a3;
         char name[20];
