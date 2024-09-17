@@ -20,7 +20,7 @@ class Test: public Student {
     string Division;
     string Result;
 public:
-    Test(int ROLLNO, string NAME, int s1, int s2, int s3) : Student(ROLLNO, NAME) {
+    Test(int ROLLNO, string NAME, int s1, int s2, int s3) : Student(ROLLNO, NAME) {      //Here we are taking value in Child class and passing it to the parent calss
         totalMarks = s1 + s2 + s3;
         Percentage = ((s1 + s2 + s3) / 300.0) * 100;
         if (Percentage > 90)
